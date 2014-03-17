@@ -4,6 +4,7 @@ set SOFTWARE=C:\Software
 set DEVELOPMENT=C:\Development
 
 set ANDROID_HOME=%DEVELOPMENT%\java\android-sdk
+set GRADLE_HOME=%DEVELOPMENT%\Java\gradle-1.10\
 set USERSCRIPTS=%USERPROFILE%\Documents\Scripts
 set ALIASES_FILE=%USERSCRIPTS%\aliases.ini
 
@@ -13,7 +14,7 @@ call :add_to_path %ANDROID_HOME%\build-tools\19.0.3\
 call :add_to_path %ANDROID_HOME%\platform-tools\
 call :add_to_path %ANDROID_HOME%\tools\
 call :add_to_path %USERSCRIPTS%
-call :add_to_path %DEVELOPMENT%\Java\gradle-1.10\bin
+call :add_to_path %GRADLE_HOME%\bin\
 
 doskey /macrofile=%ALIASES_FILE%
 
