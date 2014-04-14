@@ -13,6 +13,8 @@ exit /b
     del /s /q /f "*Uninstall*"
     del /s /q /f "*Homepage*"
     del /s /q /f "*Website*"
+    del /s /q /f "*Visit*"
+    del /s /q /f "*About*"
     del /s /q /f "*Help*"
     cd %CurrentPath%
     exit /b

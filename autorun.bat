@@ -1,12 +1,10 @@
 @echo off
 
-set COLOR_PROMPT=[32;1m$P$G[0m
-
 set SOFTWARE=C:\Software
 set DEVELOPMENT=C:\Development
 set PYTHON_HOME=%PROGRAMFILES%\Python 2.7
-set GRADLE_HOME=%DEVELOPMENT%\Java\gradle
-set ANDROID_HOME=%DEVELOPMENT%\java\android-sdk
+set GRADLE_HOME=%SOFTWARE%\gradle
+set ANDROID_HOME=%SOFTWARE%\android-sdk
 set PROGUARD_HOME=%ANDROID_HOME%\tools\proguard
 
 set USERSCRIPTS=%USERPROFILE%\Documents\Scripts
@@ -21,7 +19,7 @@ call :add_to_path %GRADLE_HOME%\bin
 doskey /macrofile=%ALIASES_FILE%
 
 if [%ConEmuHWND%] neq [] (
-	prompt %COLOR_PROMPT%
+	prompt $E[32;1m$P$G$E[0m
 )
 exit /b
 
