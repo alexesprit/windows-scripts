@@ -1,9 +1,8 @@
 var PROXY_LIST = {
-    "50.22.206.179:8080": [
+    "192.3.25.99:7808": [
         "2ip.ru",
         "pandora.com",
         "nnm-club.me",
-        "rutracker.org",
         "rutor.org",
     ],
 };
