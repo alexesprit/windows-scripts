@@ -2,7 +2,7 @@
 
 set SOFTWARE=C:\Software
 set DEVELOPMENT=C:\Development
-set PYTHON_HOME=%PROGRAMFILES%\Python 2.7
+set PYTHON_HOME=C:\Python2.7
 set GRADLE_HOME=%SOFTWARE%\gradle
 set ANDROID_HOME=%SOFTWARE%\android-sdk
 set PROGUARD_HOME=%ANDROID_HOME%\tools\proguard
