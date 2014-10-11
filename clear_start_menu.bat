@@ -16,5 +16,11 @@ exit /b
     del /s /q /f "*Visit*"
     del /s /q /f "*About*"
     del /s /q /f "*Help*"
+
+    del /s /q /f "*.chm"
+    del /s /q /f "*.htm"
+    del /s /q /f "*.url"
+    del /s /q /f "*.html"
+
     cd %CurrentPath%
     exit /b
