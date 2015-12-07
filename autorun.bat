@@ -19,11 +19,7 @@ call :add_to_path %APPDATA%\npm\
 
 doskey /macrofile=%ALIASES_FILE%
 
-if [%ConEmuHWND%] neq [] (
-	prompt $E[32;1m$P$G$E[0m
-)
 exit /b
-
 
 :add_to_path
     set PATH=%PATH%;%1
