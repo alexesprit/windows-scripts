@@ -29,7 +29,7 @@ exit /b
 :ClearCache
     if exist %1 ( 
         echo Removing %1
-        rmdir /s /q %1 >nul
+        rmdir /s /q %1 2>nul
         mkdir %1
     )
     exit /b
