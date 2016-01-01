@@ -2,7 +2,7 @@
 
 rem Increase free disk space!
 
-set IDEA_DIR=%USERPROFILE%\.IdeaIC14
+set IDEA_DIR=%USERPROFILE%\.IdeaIC15
 set GRADLE_DIR=%USERPROFILE%\.gradle
 
 call :ClearCache "%IDEA_DIR%\system\index"
