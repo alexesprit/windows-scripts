@@ -1,4 +1,4 @@
-^Tab::Run %PROGRAMFILES%\ConEmu\ConEmu.exe /Single /dir "C:\"
+^Tab::Run %PROGRAMFILES%\ConEmu\ConEmu.exe /Single
 ^Esc::WinMinimizeAll
 ; Win+S
 #vk53::Run %WINDIR%\System32\SnippingTool.exe
