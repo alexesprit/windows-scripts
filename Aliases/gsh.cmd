@@ -1,2 +1,2 @@
 @echo off
-git show %*
+git show --abbrev-commit %*

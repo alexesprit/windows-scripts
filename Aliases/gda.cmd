@@ -1,2 +1,2 @@
 @echo off
-pip list
+git date %*
