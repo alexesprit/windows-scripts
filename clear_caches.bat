@@ -24,6 +24,8 @@ call :ClearCache "%LOCAL_DATA%\Opera Software\Opera Stable"
 
 call :ClearCache "%LOCAL_DATA%\Temp"
 
+call :ClearCache "%LOCAL_DATA%\pip\cache\"
+
 exit /b
 
 :ClearCache
