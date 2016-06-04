@@ -1,2 +1,2 @@
 @echo off
-git commit %*
+git commit -S %*

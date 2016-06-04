@@ -1,2 +1,2 @@
 @echo off
-ls --color=auto %*
+ls --color %*
