@@ -1,5 +1,5 @@
-^Tab::Run %PROGRAMFILES%\ConEmu\ConEmu.exe /Single
-^+Tab::Run %PROGRAMFILES%\ConEmu\ConEmu.exe /Single /cmd {Shell::Command Prompt (Admin)}
+^Tab::Run %PROGRAMFILES%\ConEmu\ConEmu64.exe /Single
+^+Tab::Run %PROGRAMFILES%\ConEmu\ConEmu64.exe /Single /cmd {Shell::Command Prompt (Admin)}
 
 ^Esc::WinMinimizeAll
 ; Win+S
