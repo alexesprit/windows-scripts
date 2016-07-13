@@ -23,8 +23,8 @@ call :BackupDir "%APPDATA%\uTorrent"
 exit /b
 
 :BackupDir
-    set source=%1
-    set target=%BACKUP_DIR%%~p1%~nx1
+    set source="%1"
+    set target="%BACKUP_DIR%%~p1%~nx1"
 
     if not exist %target% (
         mkdir %target%
@@ -34,8 +34,8 @@ exit /b
     exit /b
 
 :BackupFile
-    set source=%1
-    set target=%BACKUP_DIR%%~p1
+    set source="%1"
+    set target="%BACKUP_DIR%%~p1"
 
     if not exist %target% (
         mkdir %target%
