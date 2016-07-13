@@ -2,7 +2,11 @@
 
 set BACKUP_DIR=%USERPROFILE%\Desktop\Backup
 
-rem Program settings
+call :BackupDir "%USERPROFILE%\.atom"
+call :BackupDir "%USERPROFILE%\.IdeaIC16\config"
+
+call :BackupDir "%USERPROFILE%\.gnupg"
+call :BackupDir "%USERPROFILE%\.ssh"
 
 call :BackupFile "%APPDATA%\ConEmu.xml"
 call :BackupFile "%APPDATA%\Imagine\Imagine.ini"
