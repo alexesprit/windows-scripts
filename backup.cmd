@@ -27,10 +27,12 @@ exit /b
     set target="%BACKUP_DIR%%~p1%~nx1"
 
     if not exist %target% (
-        mkdir %target%
+        mkdir %target% > nul
     )
+    
+    echo Copy %1
 
-    copy %source% %target%
+    copy %source% %target% > nul
     exit /b
 
 :BackupFile
@@ -38,9 +40,10 @@ exit /b
     set target="%BACKUP_DIR%%~p1"
 
     if not exist %target% (
-        mkdir %target%
+        mkdir %target% > nul
     )
+    
+    echo Copy %1
 
-    copy %source% %target%
-    echo copy %source% %target%
+    copy %source% %target% > nul
     exit /b
