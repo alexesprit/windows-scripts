@@ -1,3 +1,6 @@
+#NoTrayIcon
+#SingleInstance force
+
 ^Tab::Run %PROGRAMFILES%\ConEmu\ConEmu64.exe /Single
 ^+Tab::Run %PROGRAMFILES%\ConEmu\ConEmu64.exe /Single /cmd {Shell::Command Prompt (Admin)}
 
