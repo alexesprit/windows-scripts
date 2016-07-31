@@ -14,3 +14,5 @@
 #F10::Send {Media_Stop}
 #F11::Send {Media_Prev}
 #F12::Send {Media_Next}
+
+RWin::Send {LWin down}{Tab}{LWin up}
