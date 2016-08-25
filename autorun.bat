@@ -4,7 +4,7 @@ set SOFTWARE=C:\Software
 set DEVELOPMENT=%USERPROFILE%\Development
 set PYTHON_HOME=C:\Python35
 set GRADLE_HOME=%SOFTWARE%\gradle
-set ANDROID_HOME=%SOFTWARE%\android-sdk
+set ANDROID_HOME=%USERPROFILE%\AppData\Local\Android\Sdk
 set PROGUARD_HOME=%ANDROID_HOME%\tools\proguard
 
 set USERSCRIPTS=%USERPROFILE%\Documents\Scripts
@@ -21,6 +21,8 @@ call :AddToPath %APPDATA%\npm\
 call :AddToPath %PYTHON_SCRIPTS%
 call :AddToPath %USERSCRIPTS%
 call :AddToPath %ALIASES_DIR%
+
+call :AddToPath %APPDATA%\npm\node_modules\selenium-chromedriver\bin\
 
 exit /b
 
