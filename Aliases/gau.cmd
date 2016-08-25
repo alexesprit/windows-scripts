@@ -1,2 +1,2 @@
 @echo off
-git add -u %*
+git add -u %* && git st

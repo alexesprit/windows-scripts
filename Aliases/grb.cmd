@@ -1,2 +1,2 @@
 @echo off
-git rebase *$
+git rebase %*

@@ -1,2 +1,2 @@
 @echo off
-git aa %*
+git add %* . && git st
