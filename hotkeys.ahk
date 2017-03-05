@@ -8,7 +8,7 @@
 ; Win+S
 #vk53::Run %WINDIR%\System32\SnippingTool.exe
 ; Win+Z
-#vk5A::Run %PROGRAMFILES%\SpeedCrunch\speedcrunch.exe
+#vk5A::Run "C:\Program Files (x86)\SpeedCrunch\speedcrunch.exe"
 
 #F9::Send {Media_Play_Pause}
 #F10::Send {Media_Stop}
