@@ -1,2 +1,2 @@
 @echo off
-git la %*
+git log-last %*

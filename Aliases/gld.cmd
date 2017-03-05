@@ -1,2 +1,2 @@
 @echo off
-git ld %*
+git log-date %*

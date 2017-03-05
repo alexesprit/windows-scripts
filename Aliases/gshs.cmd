@@ -1,2 +1,2 @@
 @echo off
-git show --quiet
+git show --quiet %*
