@@ -1,2 +1,2 @@
 @echo off
-git add %* && git status --short
+git add -A %* && git status --short
