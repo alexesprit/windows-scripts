@@ -1,18 +1,12 @@
 @echo off
 
-set SOFTWARE=C:\Software
+set VFLAGS=-cc msvc
+
 set DEVELOPMENT=%USERPROFILE%\Development
-set PYTHON_HOME=C:\Python35
-set ANDROID_HOME=%USERPROFILE%\AppData\Local\Android\Sdk
-set PROGUARD_HOME=%ANDROID_HOME%\tools\proguard
 
 set USERSCRIPTS=%USERPROFILE%\Documents\Scripts
 set ALIASES_DIR=%USERSCRIPTS%\Aliases
-set PYTHON_SCRIPTS=%DEVELOPMENT%\Python\scripts
-
-call :AddToPath %ANDROID_HOME%\build-tools\23.0.2
-call :AddToPath %ANDROID_HOME%\platform-tools
-call :AddToPath %ANDROID_HOME%\tools
+set PYTHON_SCRIPTS=%DEVELOPMENT%\python-scripts
 
 call :AddToPath %APPDATA%\npm\
 
@@ -20,7 +14,7 @@ call :AddToPath %PYTHON_SCRIPTS%
 call :AddToPath %USERSCRIPTS%
 call :AddToPath %ALIASES_DIR%
 
-call :AddToPath %APPDATA%\npm\node_modules\selenium-chromedriver\bin\
+call :AddToPath %DEVELOPMENT%\v\
 
 exit /b
 
