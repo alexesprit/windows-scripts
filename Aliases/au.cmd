@@ -1,2 +1,2 @@
 @echo off
-%DEVELOPMENT%\python\audiotool\audiotool.py %*
+%DEVELOPMENT%\audiotool\audiotool.py %*

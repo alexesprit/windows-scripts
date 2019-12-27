@@ -1,2 +1,2 @@
 @echo off
-"%DEVELOPMENT%\Python\alias\alias.py" %*
+"%DEVELOPMENT%\alias\alias.py" %*
