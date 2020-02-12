@@ -27,7 +27,7 @@ else
 
 RWin::Send {LWin down}{Tab}{LWin up}
 
-Launch_Mail::Run %OPERA_EXE_PATH% %GMAIL_URL%
+Launch_Mail::Run %BROWSER_EXE_PATH% %GMAIL_URL%
 
 !F1::Run %WINDIR%\System32\DisplaySwitch.exe /internal
 !F2::Run %WINDIR%\System32\DisplaySwitch.exe /external
