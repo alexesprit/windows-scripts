@@ -14,10 +14,8 @@ call :AddToPath %PYTHON_SCRIPTS%
 call :AddToPath %USERSCRIPTS%
 call :AddToPath %ALIASES_DIR%
 
-call :AddToPath %DEVELOPMENT%\v\
+call :AddToPath %DEVELOPMENT%\vlang\v
 call :AddToPath %DEVELOPMENT%\vpkg\
-
-call :AddToPath %PROGRAMFILES(x86)%\FontForgeBuilds\bin\
 
 exit /b
 
