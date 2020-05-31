@@ -1,2 +1,2 @@
 @echo off
-git rebase -i %*
+git rebase --interactive --autosquash %*

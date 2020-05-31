@@ -1,2 +1,2 @@
 @echo off
-git push %* && git push --tags %*
+git push %* && git push --follow-tags %*

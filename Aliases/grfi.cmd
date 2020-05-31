@@ -1,2 +1,2 @@
 @echo off
-git commit --fixup=%1 && git rebase -i %1~
+git commit --fixup=%1 && git rebase --interactive --autosquash %1~
