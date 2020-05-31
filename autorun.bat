@@ -5,7 +5,6 @@ set VFLAGS=-cc msvc
 set DEVELOPMENT=%USERPROFILE%\Development
 
 set USERSCRIPTS=%USERPROFILE%\Documents\Scripts
-set ALIASES_DIR=%USERSCRIPTS%\Aliases
 set PYTHON_SCRIPTS=%DEVELOPMENT%\python-scripts
 
 call :AddToPath %APPDATA%\npm\
